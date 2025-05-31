@@ -45,7 +45,7 @@ export async function POST(request: Request) {
   try {
     const mail = await transporter.sendMail({
       from: user,
-      to: "sabirkoutabi@gmail.com , mrsabir4@gmail.com",
+      to: "soufiane.nederra@gmail.com",
       replyTo: email,
       subject: `Nouvelle demande de devis de ${name}`,
       html: `
