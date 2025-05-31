@@ -22,7 +22,7 @@ export async function POST(request: Request) {
   try {
     const mail = await transporter.sendMail({
       from: user,
-      to: "sabirkoutabi@gmail.com , info@bluboarding.com",
+      to: "soufiane.nederra@gmail.com",
       replyTo: email,
       subject: `Contact form submission from ${fullName}`,
       html: `
